@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>O's Fragances</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabeza row">
+            <nav class="navbar navbar-expand-lg o-bg-body col-lg-12 col-md-12 col-sm-12">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">O's Fragances</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Marcas</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Fragancias
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Masculina</a></li>
+                          <li><a class="dropdown-item" href="#">Femenina</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Más vendidas</a></li>
+                        </ul>
+                      </li>   
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Encontrá tu fragancia" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+         </header>
+          <aside class="publi row">
+                <section id="carouselExampleIndicators" class="carousel slide col-lg-12 col-md-12 col-sm-12">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../assets/fragancias_6.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/fragancias_model_2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/fragancias_model_3.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </section>
+            </aside>
+            <main>
+                <section class="main-section-suscripcion">
+                    <h2 class="suscripcion-title">SUMATE A NUESTRA FAMILIA</h2>
+                    <p class="suscripcion-parrafo">Registrate y obtené descuentos exclusivos sin perderte de todas las novedades.</p>
+                    <div class="row">
+                        <form class="formulario_container col-lg-12 col-md-12 col-sm-12" action="">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+                            <label for="mail">Correo:</label>
+                            <input type="email" name="mail" id="mail">
+                            <label for="contraseña">Contraseña:</label>
+                            <input type="password" name="contraseña" id="contraseña">
+                            <button type="submit">Enviar</button>
+                         </form>
+                     </div>
+                 
+                </section>
+             </main> 
+            <footer class="pie">
+              <div class="left_container col-lg-6 col-md-6 col-sm-6">
+                <ul class="footer-left">
+                  <li>
+                      <a href="">Publicidad</a>
+                  </li>
+                  <li>
+                      <a href="">Negocios</a>
+                  </li>
+                  <li>
+                      <a href="">Suscripción</a>
+                  </li>
+              </ul>
+              </div>
+              <div class="right_container col-lg-6 col-md-6 col-sm-6">
+                <ul class="footer-right">
+                  <li>
+                      <a href="">Privacidad</a>
+                  </li>
+                  <li>
+                      <a href="">Condiciones</a>
+                  </li>
+                  <li>
+                      <a href="">Preferencias</a>
+                  </li>
+              </ul>
+              </div>
+            </footer>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    </body>
+</html>
+
